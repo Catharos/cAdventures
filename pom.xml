@@ -24,6 +24,11 @@
 			<id>clib-repo</id>
 			<url>http://catharos.de:8080/plugin/repository/everything/</url>
 		</repository>
+                		
+		<repository>
+			<id>tagapi-repo</id>
+			<url>http://catharos.de:8080/plugin/repository/everything/</url>
+		</repository>
 	</repositories>
 	
 	<!-- Add dependencies -->
@@ -43,6 +48,11 @@
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
+	 <dependency>
+	  <groupId>org.kitteh</groupId>
+	  <artifactId>tagapi</artifactId>
+	  <version>1.9.3-SNAPSHOT</version>
+	 </dependency>
 	</dependencies>
 
 	<!-- Add resource files -->
