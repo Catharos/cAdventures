@@ -16,18 +16,23 @@
 	<!-- Add bukkit repository -->
 	<repositories>
 		<repository>
-			<id>bukkit-repo</id>
+			<id>bukkit</id>
 			<url>http://repo.bukkit.org/content/groups/public/</url>
 		</repository>
 		
 		<repository>
-			<id>clib-repo</id>
+			<id>clib</id>
 			<url>http://catharos.de:8080/plugin/repository/everything/</url>
 		</repository>
                 		
 		<repository>
-			<id>tagapi-repo</id>
+			<id>tagapi</id>
 			<url>http://repo.kitteh.org/content/repositories/public/</url>
+		</repository>
+                
+                <repository>
+			<id>citizens</id>
+			<url>http://repo.citizensnpcs.com</url>
 		</repository>
 	</repositories>
 	
@@ -56,6 +61,16 @@
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
+	 <dependency>
+	  <groupId>net.citizensnpcs</groupId>
+	  <artifactId>citizensapi</artifactId>
+	  <version>2.0.7-SNAPSHOT</version>
+	 </dependency>
+	 <dependency>
+	  <groupId>net.aufdemrand</groupId>
+	  <artifactId>denizen</artifactId>
+	  <version>0.8-PRERELEASE</version>
+	 </dependency>
 	</dependencies>
 
 	<!-- Add resource files -->
