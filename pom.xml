@@ -26,11 +26,12 @@
 		</repository>
                 		
 		<repository>
-			<id>tagapi</id>
-			<url>http://repo.kitteh.org/content/repositories/public/</url>
+			<id>comphenix-rep</id>
+			<name>Comphenix Repository</name>
+			<url>http://repo.comphenix.net/content/groups/public</url>
 		</repository>
-                
-                <repository>
+		
+		<repository>
 			<id>citizens</id>
 			<url>http://repo.citizensnpcs.com</url>
 		</repository>
@@ -42,35 +43,31 @@
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
 			<version>1.4.5-R0.3-SNAPSHOT</version>
-			<type>jar</type>
-			<scope>compile</scope>
 		</dependency>
 		
 		<dependency>
 			<groupId>net.catharos.clib</groupId>
 			<artifactId>cLib</artifactId>
 			<version>1.0.2-SNAPSHOT</version>
-			<type>jar</type>
-			<scope>compile</scope>
 		</dependency>
 		
 		<dependency>
-			<groupId>org.kitteh</groupId>
-			<artifactId>tagapi</artifactId>
-			<version>1.9.3-SNAPSHOT</version>
-			<type>jar</type>
-			<scope>compile</scope>
+			<groupId>com.comphenix.protocol</groupId>
+			<artifactId>ProtocolLib</artifactId>
+			<version>2.1.0</version>
 		</dependency>
-	 <dependency>
-	  <groupId>net.citizensnpcs</groupId>
-	  <artifactId>citizensapi</artifactId>
-	  <version>2.0.7-SNAPSHOT</version>
-	 </dependency>
-	 <dependency>
-	  <groupId>net.aufdemrand</groupId>
-	  <artifactId>denizen</artifactId>
-	  <version>0.8-PRERELEASE</version>
-	 </dependency>
+		
+		<dependency>
+			<groupId>net.citizensnpcs</groupId>
+			<artifactId>citizensapi</artifactId>
+			<version>2.0.7-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>net.aufdemrand</groupId>
+			<artifactId>denizen</artifactId>
+			<version>0.8-PRERELEASE</version>
+		</dependency>
 	</dependencies>
 
 	<!-- Add resource files -->
