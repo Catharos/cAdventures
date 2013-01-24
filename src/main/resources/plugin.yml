@@ -1,6 +1,6 @@
 name: cAdventures
 main: net.catharos.adventures.cAdventures
-description:Enhanced Minecraft Adventures! 
+description: Enhanced Minecraft Adventures!
 version: ${pom.version}-b${BUILD_NUMBER}
 author: SpaceEmotion
 website: http://www.catharos.de
